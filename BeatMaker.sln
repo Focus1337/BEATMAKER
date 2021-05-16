@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeatMaker", "BeatMaker\BeatMaker.csproj", "{6EF27ADC-1A84-4A55-B756-A7BABA4BFC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeatMakerTests", "BeatMakerTests\BeatMakerTests.csproj", "{575356FF-4611-4E90-B231-219111D441F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF27ADC-1A84-4A55-B756-A7BABA4BFC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF27ADC-1A84-4A55-B756-A7BABA4BFC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF27ADC-1A84-4A55-B756-A7BABA4BFC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF27ADC-1A84-4A55-B756-A7BABA4BFC64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575356FF-4611-4E90-B231-219111D441F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575356FF-4611-4E90-B231-219111D441F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575356FF-4611-4E90-B231-219111D441F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575356FF-4611-4E90-B231-219111D441F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02772ECE-254B-4A25-90AF-F166BDF7CC86}
+	EndGlobalSection
+EndGlobal
