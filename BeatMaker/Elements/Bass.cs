@@ -62,7 +62,11 @@ namespace BeatMaker
         private void Bass_ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(Bass_ComboBox1.SelectedItem.ToString()))
-                metroLabel10.Text = "EDIT: " + Bass_ComboBox1.SelectedItem.ToString(); // текст группы эдит
+            {       
+                metroLabel10.Text = "EDIT: " + Bass_ComboBox1.SelectedItem.ToString(); // текст группы эдит             
+                metroLabel32.Text = (media_BassList[Bass_ComboBox1.SelectedIndex].Volume * 100).ToString() + "%";
+                metroLabel34.Text = (media_BassList[Bass_ComboBox1.SelectedIndex].SpeedRatio * 100).ToString() + "%";
+            }
 
             if (Bass_ComboBox1.SelectedIndex != -1)
                 groupBox6.Enabled = true;
