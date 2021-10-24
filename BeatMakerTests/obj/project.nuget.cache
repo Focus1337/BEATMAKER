@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K/LPfvwV8GNA9Yh5K1aZvCuIwTRmIZuFHuwbzkPAGpQOD2qwM9lhOrRNiLHsDMfbSA0/qrzxp1/26qXidGIAjQ==",
+  "dgSpecHash": "YMon15u4zd00HPKbKiWxtsL09DGTuqgl2UgZMmoUaZODjxhi+eAUg22Uok4tSyu38deKhBwa8LKGkLF1wO7SDw==",
   "success": true,
-  "projectFilePath": "D:\\Учеба\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj",
+  "projectFilePath": "D:\\Study\\Projects\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Focus\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Focus\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

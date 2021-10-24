@@ -19,7 +19,7 @@ namespace BeatMaker
         List<MediaPlayer> media_FxList = new List<MediaPlayer>();
     }
 
-   public class Static
+    public class Static
     {
         //============ инициализация всех статических полей ============
         public static List<Bass> BassList = new List<Bass>();

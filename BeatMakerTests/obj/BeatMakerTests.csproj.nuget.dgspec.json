@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj": {}
+    "D:\\Study\\Projects\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj": {}
   },
   "projects": {
-    "D:\\Учеба\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj": {
+    "D:\\Study\\Projects\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj",
+        "projectUniqueName": "D:\\Study\\Projects\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj",
         "projectName": "BeatMakerTests",
-        "projectPath": "D:\\Учеба\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj",
+        "projectPath": "D:\\Study\\Projects\\BeatMaker\\BeatMakerTests\\BeatMakerTests.csproj",
         "packagesPath": "C:\\Users\\Focus\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\BeatMaker\\BeatMakerTests\\obj\\",
+        "outputPath": "D:\\Study\\Projects\\BeatMaker\\BeatMakerTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Focus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Учеба\\BeatMaker\\BeatMaker\\BeatMaker.csproj": {
-                "projectPath": "D:\\Учеба\\BeatMaker\\BeatMaker\\BeatMaker.csproj"
+              "D:\\Study\\Projects\\BeatMaker\\BeatMaker\\BeatMaker.csproj": {
+                "projectPath": "D:\\Study\\Projects\\BeatMaker\\BeatMaker\\BeatMaker.csproj"
               }
             }
           }
@@ -76,15 +80,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Учеба\\BeatMaker\\BeatMaker\\BeatMaker.csproj": {
+    "D:\\Study\\Projects\\BeatMaker\\BeatMaker\\BeatMaker.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\BeatMaker\\BeatMaker\\BeatMaker.csproj",
+        "projectUniqueName": "D:\\Study\\Projects\\BeatMaker\\BeatMaker\\BeatMaker.csproj",
         "projectName": "BeatMaker",
-        "projectPath": "D:\\Учеба\\BeatMaker\\BeatMaker\\BeatMaker.csproj"
+        "projectPath": "D:\\Study\\Projects\\BeatMaker\\BeatMaker\\BeatMaker.csproj"
       },
       "frameworks": {
         "net472": {}
