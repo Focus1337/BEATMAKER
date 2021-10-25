@@ -3,6 +3,9 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 using System.Windows.Media;
+// ReSharper disable StringLiteralTypo
+// ReSharper disable CommentTypo
+
 
 public class Bass : FileInfo
 {
@@ -62,7 +65,11 @@ namespace BeatMaker
         private void Bass_ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(Bass_ComboBox1.SelectedItem.ToString()))
-                metroLabel10.Text = "EDIT: " + Bass_ComboBox1.SelectedItem.ToString(); // текст группы эдит
+            {       
+                metroLabel10.Text = "EDIT: " + Bass_ComboBox1.SelectedItem.ToString(); // текст группы эдит             
+                metroLabel32.Text = (media_BassList[Bass_ComboBox1.SelectedIndex].Volume * 100).ToString() + "%";
+                metroLabel34.Text = (media_BassList[Bass_ComboBox1.SelectedIndex].SpeedRatio * 100).ToString() + "%";
+            }
 
             if (Bass_ComboBox1.SelectedIndex != -1)
                 groupBox6.Enabled = true;
@@ -91,14 +98,14 @@ namespace BeatMaker
         {
             Bass.TryChangeVolumeOrSpeed("громкость");
             media_BassList[Bass_ComboBox1.SelectedIndex].Volume = Bass_Volume.Value / 100.0f;
-            metroLabel32.Text = (media_BassList[Bass_ComboBox1.SelectedIndex].Volume * 100).ToString() + "%";
+            metroLabel32.Text = media_BassList[Bass_ComboBox1.SelectedIndex].Volume * 100 + "%";
         }
 
         private void Bass_Speed_Scroll(object sender, ScrollEventArgs e)
         {
             Bass.TryChangeVolumeOrSpeed("скорость");
             media_BassList[Bass_ComboBox1.SelectedIndex].SpeedRatio = Bass_Speed.Value / 100.0f;
-            metroLabel34.Text = (media_BassList[Bass_ComboBox1.SelectedIndex].SpeedRatio * 100).ToString() + "%";
+            metroLabel34.Text = media_BassList[Bass_ComboBox1.SelectedIndex].SpeedRatio * 100 + "%";
         }
 
         private void bassTextBoxInterval_TextChanged(object sender, EventArgs e)

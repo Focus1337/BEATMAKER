@@ -59,6 +59,8 @@ namespace BeatMaker
             if (!string.IsNullOrEmpty(Percs_ComboBox1.SelectedItem.ToString()))
             {
                 metroLabel18.Text = "EDIT: " + Percs_ComboBox1.SelectedItem.ToString(); // текст группы эдит
+                metroLabel70.Text = (media_PercsList[Percs_ComboBox1.SelectedIndex].Volume * 100).ToString() + "%";
+                metroLabel69.Text = (media_PercsList[Percs_ComboBox1.SelectedIndex].SpeedRatio * 100).ToString() + "%";
             }
 
             if (Percs_ComboBox1.SelectedIndex != -1)
