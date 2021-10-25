@@ -3,12 +3,12 @@ BeatMaker - это программа, написанная на C# **(без с
 В программе есть следующие элементы битов: Bass, Claps, Kicks, Hi Hats, Snares, Drum Fills, Percs, Loops, Fx, Vocal.
 У каждого выбранного элемента можно настроить громкость, скорость и задержку запуска звука.
 
-<img src="https://prnt.sc/1xb967h" alt="a" width="200"/>
+<img src="https://i.imgur.com/SgaSPmi.png" alt="a" width="200"/>
 
 # RECORDER
 Recorder - это функция программы BeatMaker, с помощью которой можно записывать созданные биты в высоком качестве в .wav формате.
 
-<img src="https://prnt.sc/1xb99qd" alt="a" width="200"/>
+<img src="https://i.imgur.com/qYOL025.png" alt="a" width="200"/>
 
 # UNIT TEST
 В программе также имеются встроенные модульные тесты, где тестируется: Play, Volume, Speed, Delete и Open media.
